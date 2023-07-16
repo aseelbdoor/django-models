@@ -1,0 +1,10 @@
+
+
+
+{% extends 'base.html'%}
+{% block content%}
+<h1>Snacks</h1>
+{% for i in data %}
+    <h3><a href="{% url 'details' i.id %}" > {{i.name}} </a></h3>
+{% endfor %}
+{% endblock%}

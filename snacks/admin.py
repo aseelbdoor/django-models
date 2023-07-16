@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Snacks
+from .models import Snack
 # Register your models here.
 
-admin.site.register(Snacks)
+admin.site.register(Snack)
